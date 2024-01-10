@@ -1,0 +1,107 @@
+/* css for all */
+
+*{
+    margin: auto, auto;
+    padding: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(180, 46%, 79%)
+}
+
+.container{
+    width: 80%;
+    margin: 0, auto;
+    padding: 1%;
+}
+
+
+/* css for nav */
+.logo{
+    width: 20%;
+    float: left;
+}
+.img-responsive{
+    width: 70%;
+}
+
+.text-right{
+    text-align: right;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+    font-style: italic;
+}
+.menu{
+    line-height: 30px;
+}
+a{
+    color: green;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+.text-center{
+    text-align: center;
+}
+
+
+
+/* css for social media */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+
+/* csss for mobile responsive */
+@media only screen and (max-width: 768px) {
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+    .menu ul{
+        text-align: center;
+    }
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 5%;
+    }
+    .btn{
+        width: 90%;
+        padding: 2%;
+    }
+    .food-search{
+        padding: 10% 0;
+    }
+    .categories{
+        padding: 20% 0;
+    }
+    .h2{
+        margin-bottom: 10%;
+    }
+    .box{
+        width: 95%;
+        margin: 4% auto;
+    }
+    .food-menu{
+        padding: 20% 0;
+    }
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+}

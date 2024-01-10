@@ -1,0 +1,197 @@
+/* 
+code by: MRP
+restaurnat ordering system
+*/
+/* css for all */
+
+*{
+    margin: auto, auto;
+    padding: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0, auto;
+    padding: 1%;
+}
+
+/* css for nav */
+.logo{
+    width: 20%;
+    float: left;
+}
+.img-responsive{
+    width: 70%;
+}
+
+.text-right{
+    text-align: right;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+    font-style: italic;
+}
+.menu{
+    line-height: 30px;
+}
+a{
+    color: green;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+
+/* css for food search section */
+.food-search{
+    background-image: url(images/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 17% 0;
+}
+.text-center{
+    text-align: center;
+}
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+}
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    width: 15%;
+    border-radius: 8px;
+}
+.btn-primary{
+    background-color: rgb(33, 124, 21);
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: rgb(39, 241, 8);
+    color: yellow;
+}
+
+/* css for category */
+.categories{
+    padding: 2% 0;
+    margin: auto 15%;
+}
+.box{
+    float: left;
+    width: 28%;
+    margin: 2%;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 20px;
+    left: 40%;
+}
+.text-white{
+    color: white;
+}
+.h2{
+    font-size: 1.5rem;
+}
+.img-curve{
+    border-radius: 10px;
+}
+
+/* css for food menu */
+.food-menu{
+    background-color: rgba(115, 239, 109, 0.33)  
+}
+.food-menu-box{
+    width: 40%;
+    margin:1%;
+    padding:1%;
+    float: right;
+    background-color: white;
+    border-radius: 20px;
+}
+.food-menu-img{
+    width: 40%;
+    float: left;
+}
+.food-menu-desc{
+    width: 40%;
+    float: left;
+    margin-left: 8%;
+}
+.food-price{
+    font-size: 1rem;
+    margin: 2% 0;
+}
+.food-details{
+    font-size: 1rem;
+    font-style: italic;
+    color: brown;
+}
+
+/* css for social media */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* csss for mobile responsive */
+@media only screen and (max-width: 768px) {
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+    .menu ul{
+        text-align: center;
+    }
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 5%;
+    }
+    .btn{
+        width: 90%;
+        padding: 2%;
+    }
+    .food-search{
+        padding: 10% 0;
+    }
+    .categories{
+        padding: 20% 0;
+    }
+    .h2{
+        margin-bottom: 10%;
+    }
+    .box{
+        width: 95%;
+        margin: 4% auto;
+    }
+    .food-menu{
+        padding: 20% 0;
+    }
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+}
